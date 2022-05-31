@@ -1,0 +1,159 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  padding:0;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  background-color: #a3bfc7;
+  color: #000000;
+  padding: 20px;
+}
+
+nav ul{
+  background-color: #d6a05a;;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline-flex;
+}
+
+nav a{
+  text-decoration: none;
+  color: #232323;
+  padding: 20px;
+  width: 150px;
+}
+
+nav li:hover
+{
+  background-color:#a3bfc7;
+}
+
+img.Imagen1{
+  left: 100;
+  top: 100;
+  height: 200px;
+  width: 200px;
+    
+}
+
+ .contenido {
+display: flex;
+margin: 60px;
+ }
+.articulos {
+width: 80%;
+border-right: 3px solid #38571a;
+}
+.secciones {
+display: flex;
+align-items: center;
+padding: 40px;
+}
+.menu-secundario{
+width: 20%;
+margin-top: 60px;
+}
+.menu-secundario a { 
+display: block;
+text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: #d6a05a;
+    color: black;
+    margin-top: 40px;
+  }
+
+  footer p{
+    text-align: center;
+    padding: 50px;
+  }
+
+img.Imagen2{
+  left: 100;
+  top: 100;
+  height: 200px;
+  width: 200px;}
+
+  img.Imagen3{
+  left: 300;
+  top: 300;
+  height: 300px;
+  width: 300px;}
+
+  img.Imagen4{
+  left: 300;
+  top: 300;
+  height: 300px;
+  width: 300px;}
+
+
+
+form#pago {
+margin:auto;
+background: #d6a05a;
+color: white;
+font-size: 12px;
+padding: 30px;
+width: 350px;
+border:solid 10px #d6a05a;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+form#pago fieldset {
+border: none;
+}
+
+form#pago input{
+font-size:12px;
+background: #a3bfc7;
+border:solid 1px #d6a05a;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+
+form#pago ol li {
+line-height: 25px;
+list-style: none;
+}
+
+form#pago [required]{
+border:solid 1px #d6a05a;
+}
+
+input:required {
+outline: 1px #d6a05a;
+}
+
+label {
+     display: block;
+        width: 100px;
+        text-align:left;
+  
+
+
+.link{
+  background-color: #ffffff;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+}
